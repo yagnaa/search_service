@@ -27,7 +27,7 @@ public class AutoSuggestService {
 		{
 			for(String matchedString: matchedStrings)
 			{
-				Entity e = new Entity(matchedString,matchedString);
+				Entity e = new Entity(matchedString,"http://"+matchedString);
 				entities.add(e);
 			}
 		}
