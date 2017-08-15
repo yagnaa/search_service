@@ -1,1 +1,15 @@
-test
+Commands to Run:
+
+mvn clean package
+
+java -jar target/search-0.0.1.jar server config.yml
+
+
+POST: localhost:8888/suggest/index
+{"stringsToAdd":["face","faces","facet","facebook","facemash","faces","facet","facebook","facemash"]}
+
+
+GET: localhost:8888/suggest/index
+
+
+GET: http://localhost:8888/suggest?prefix=face
