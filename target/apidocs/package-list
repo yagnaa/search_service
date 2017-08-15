@@ -1,9 +1,7 @@
-com.shotang
-com.shotang.api
-com.shotang.api.autosuggest
-com.shotang.api.solr.request.config
-com.shotang.constants
-com.shotang.db.models
-com.shotang.helper
-com.shotang.resources
-com.shotang.service
+com.zenefits
+com.zenefits.api
+com.zenefits.api.autosuggest
+com.zenefits.constants
+com.zenefits.db.models
+com.zenefits.resources
+com.zenefits.service
